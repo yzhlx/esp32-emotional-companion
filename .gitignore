@@ -1,0 +1,24 @@
+# Local credentials - DO NOT ADD to Git
+/include/project_config.h
+**/project_config.local.h
+.env
+.env.*
+*.pem
+*.key
+
+# PlatformIO artifacts and transient IDE files
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+.idea/
+*.log
+
+# Vendor library copies excluded from the historical public archive
+/lib/
+/.git/
+*.zip
+*.7z
+*.rar
+.DS_Store
+Thumbs.db
